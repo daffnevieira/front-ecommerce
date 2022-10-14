@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Lançamentos</title>
+</head>
+<body>
+    <style>
+        .div-new-container{
+            margin: 20px;
+        }
+        .div-new-container > h1 {
+            margin-bottom: 5vh;
+        }
+        .cont-lan-pos{
+            display: flex;
+            justify-content: center;
+    
+        }
+       .new-clothes{
+        width: 70%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        background-color: rgb(255, 255, 255);
+       }
+       .container-new{
+        width: 100px;
+        margin: 10px 30px;
+        padding: 10px;
+        display: block;
+        background-color: rgb(218, 191, 218);
+       }
+    
+    </style>
+
+    <header>
+        <%- include -%>
+    </header>
+    
+    <div class="div-new-container">
+        <h1>Últimos Lançamentos</h1>
+    
+        <div class="cont-lan-pos">
+            <div class="new-clothes">
+        
+                <div class="container-new">
+                    <img src="./imagens/pexels-pixabay-247298.jpg" alt="">
+                    <h2>Jaqueta jeans</h2>
+                    <h3>Apenas R$ 99</h3>
+    
+                    
+                    
+                </div>
+                <div class="container-new">
+                    <img src="./imagens/pexels-pixabay-247298.jpg" alt="">
+                    <h2>Jaqueta jeans</h2>
+                    <h3>Apenas R$ 99</h3>
+    
+                    
+                    
+                </div>
+                <div class="container-new">
+                    <img src="./imagens/pexels-pixabay-247298.jpg" alt="">
+                    <h2>Jaqueta jeans</h2>
+                    <h3>Apenas R$ 99</h3>
+    
+                    
+                    
+                </div>
+        
+        
+            </div>
+        </div>
+    
+    </div>
+    
+</body>
+</html>

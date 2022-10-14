@@ -1,0 +1,64 @@
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Dancing Script', sans-serif;
+    background-color:  rgb(225, 204, 204);
+    text-align: center;
+}
+.header-2{
+    max-width: 100%;
+    height: 7vh;
+    background-color: #e1cccc;
+}
+.nav-box{
+    padding: 10px;
+    background-color: rgb(160, 125, 118);
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+.nav-box #search{
+    border: 1px solid #0000;
+    border-radius: 10px;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+ul > li a{
+    text-decoration: none;
+    color: white;
+}
+.logo-content{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+
+}
+</style>
+
+<div class="header-2">
+    <div class="logo-content">
+        <h1 class="logo">Style Clothes</h1>
+    </div>
+</div>
+<nav class="nav-box">
+    <ul>
+        <li><input type="search" name="pesquisa" id="search" placeholder="O que você busca?"></li>
+        <li><a href="../views/lanc.ejs">Início</a></li>
+        <li><a href="">Lançamentos</a></li>
+        <li><a href="">Promoções</a></li>
+        <li>Jeans</li>
+    </ul>
+</nav>
+<div class="nav-mobile"></div>

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Dancing Script', sans-serif;
+    background-color:  #f0e0e0;
+    text-align: center;
+}
+.header-2{
+    max-width: 100%;
+    height: auto;
+    background-color: #e1ccc0;
+}
+.nav-box{
+    padding: 10px;
+    background-color: rgb(160, 125, 118);
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+.nav-box #search{
+    border: 1px solid #0000;
+    border-radius: 10px;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+ul > li a{
+    text-decoration: none;
+    color: white;
+}
+.logo-content{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.grid-position{
+    width: 100%;
+    padding: 0 -15px;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(160, 125, 118);
+    
+}
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+
+}
+.grid-container{
+    width: 35vh;
+    height: 50vh;
+    margin: 20px;
+
+    border: 0px solid #000000;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+.content-grid{
+    margin: 10px;
+}
+img{
+    height: 25vh;
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    background-color: rgb(38, 92, 209);
+    text-align: center;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+
+}
+.img > img{
+    width: 800px;
+    height: 50vh;
+}
